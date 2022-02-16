@@ -1,7 +1,7 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just another text editor",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
@@ -23,9 +23,6 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4",
-    "webpack": "^5.69.0",
-    "webpack-cli": "^4.9.2",
-    "html-webpack-plugin": "^5.3.2"    
+    "nodemon": "^2.0.4"
   }
 }
